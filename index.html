@@ -1,38 +1,80 @@
 <html>
-  <head>
-    <title>Internal Style</title>
-  </head>
-  
-  <body style="background-color: sandybrown;">
-    <center>
-    <table style="background-color: silver; width: 80%; border-style: groove; text-align: center;">
-      <tr>
-        <td style="font-size: 50; font-style: italic; font-family: 'franklin Gothic Medium, 'Arial Narrow', Arial, sans-serfi;" >Latihan CSS 1</td>
-      </tr>
-      </table>
-      
-      <br><br>
-      
-      <table style="width: 50%; background-color: lightgreen; border-style: double; border-width: 5;">
-        <tr>
-          <td style="border-width: 25%;">Nama :</td>
-          <td>Nur Fariesya Nabiela binti Zahid</td> 
-        </tr>
-        <tr style="background-color: limegreen;">
-          <td>Cita :</td>
-          <td>Penulis Novel</td>
-        </tr>
-        <tr>
-          <td>Hobi :</td>
-          <td>Membaca</td>
-        </tr>
-        <tr style="background-color: limegreen;">
-          <td>Asal :</td>
-          <td>Johor Bahru</td>
-        </tr>
-      </table>
-      
-    </center>
-  </body>
-  
+<html> 
+  <head> 
+    <title>DIV LAYOUT</title> 
+    <style> 
+    .ini_ialah_header { 
+      border-style: double;  
+      font-size: 50;  
+      font-weight: bold; 
+      text-align: center; 
+      width: 80%; 
+      margin: auto; 
+      } 
+      .menu { 
+        border-style: double; 
+        border-width: 4;  
+        width: 80%; 
+        margin: auto; 
+        margin-top: 10px; 
+        padding-top: 5px; 
+        padding-bottom: 5px; 
+        padding-left: 5px; 
+      } 
+      a { 
+        text-decoration: none; 
+      } 
+      li { 
+        list-style-type: none; 
+      } 
+      .kandungan { 
+        width: 80%; 
+        margin: auto; 
+        margin-top: 20px; 
+        text-align: center; 
+      } 
+      .nota_kaki { 
+      border: solid; 
+      width: 80%; 
+      margin: auto; 
+      padding-top: 5px; 
+      padding-bottom: 5px; 
+      text-align: center; 
+      } 
+    </style> 
+  </head> 
+   
+  <body> 
+     
+    <!-- BARIS HEADER BERMULA --> 
+    <div class="ini_ialah_header"> 
+    Borang Pemarkahan Olahraga 
+    </div> 
+     
+    <!-- BARIS MENU BERMULA --> 
+    <div class="menu"> 
+      <ul> 
+        <li><a href="#">UTAMA</a></li> 
+        <li><a href="#">DAFTAR ACARA</a></li> 
+        <li><a href="#">DAFTAR PESERTA</a></li> 
+        <li><a href="#">KEPUTUSAN</a></li> 
+        <li><a href="#">PAPAR</a></li> 
+      </ul> 
+    </div> 
+     
+    <!-- BARIS CONTENT MULA --> 
+    <div class="kandungan"> 
+      <form action=""> 
+      Nama Pengguna :<br> 
+        <input type="text" name="" id=""><br> 
+        Kata Laluan :<br> 
+        <input type="password" name="" id=""><br> 
+      </form> 
+    </div> 
+     
+    <!-- BARIS FOOTER MULA --> 
+    <div class="nota_kaki"> 
+    &copy; 2021 Kolej Vokasional Perdagangan, Johor 
+    </div> 
+  </body> 
 </html>
