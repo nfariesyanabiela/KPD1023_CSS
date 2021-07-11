@@ -10,7 +10,7 @@
         text-align: center;
         border-style: solid;
         border-color: tomato;
-        font-align: 40%;
+        font-align: 50%;
         font-weight: bold;
       }
       .menu {
@@ -50,7 +50,23 @@
         padding: 14px;
         float: right;
         margin-right: 10%;
-      }     
+      }
+      .vertical:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .kaki { 
+        width: 80%; 
+        margin: auto; 
+        border-style: solid; 
+        border-color: tomato; 
+        background-color: teal; 
+        width: 80%; 
+        margin: auto; 
+        padding-top: 5px; 
+        padding-bottom: 5px; 
+        text-align: center;
     </style>
   </head>
   <body>
@@ -59,7 +75,7 @@
       Vertical Menu
     </div>
     
-    <div class="veritacal">
+    <div class="vertical">
     <!---Menu--->
     <div class="menu">
       <ul>
@@ -67,6 +83,7 @@
         <li><a href="#">Tentang Saya</a></li>
         <li><a href="#">Hubungi Saya</a></li>
       </ul>
+      </div>
     
     <!---Content--->
     <div class="kandungan">
